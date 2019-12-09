@@ -1,1 +1,2 @@
 # Responsive-Portfolio
+# I am submitting this but, unfortunately, I did week 3's homework and ending up realizing that I did the wrong week with only 3 hours left til the deadline.  I intend to work on this more as I know it does not work, but did not want to miss turning in something.  Apologies for the mixup.
