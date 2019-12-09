@@ -288,25 +288,48 @@ label{
   body {
     width: 980px;
   }
+  footer{
+    width: 980px; 
+  }
 
   .primary {
     width: 980px;
   }
 
+  .backslate {
+    width: 980px;
+  }
 
 @media screen and (max-width: 768px) {
 
   body {
     width: 768px;
   }
+  footer{
+    width: 768px; 
+  }
   .primary {
-    width: 980px;
+    width: 768px;
+  }
+  .backslate {
+    width: 768px;
   }
 
 @media screen and (max-width: 640px) {
   body {
     width: 640px;
   }
+
+  header {
+    position: static; 
+  }
+  footer{
+    width: 640px; 
+  }
+
   .primary {
-    width: 980px;
+    width: 640px;
+  }
+  .backslate {
+    width: 640px;
   }
