@@ -1,0 +1,312 @@
+/*
+
+  ====================================
+  Primary Header
+  ====================================
+
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.primary {
+  background: white;
+  height: 75px; 
+  width: 100%;
+  position: absolute; 
+  margin: 0 auto; 
+  border-bottom: 2px solid #cccccc; 
+}
+
+.content {
+  width: 960px; 
+  margin: 0 auto; 
+  display: block; 
+  position: relative; 
+}
+
+.logo {
+    width: 20%;
+    height: 75px; 
+    background: teal;
+    position: relative; 
+    top: -18px;   
+    color: white;
+    font-size: 24px; 
+    letter-spacing: .5px;  
+    line-height: 24px;  
+    text-align: center;
+    padding-top: 22px; 
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+  /*
+
+  ========================================
+  Navigation
+  ========================================
+
+*/
+ 
+.nav {
+  text-align: right;
+  float: right; 
+}
+
+.nav li {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: bottom;
+  position: relative; 
+  bottom: 100px; 
+  right: 0; 
+  padding-left: 20px;  
+}
+.division{
+  border-left: 1px solid #cccccc;
+}
+
+.backslate {
+  background-image: url('../images/concrete_seamless.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-position: center; */
+  /* margin-top: 40px;  */
+  width: 100%; 
+  height: 1000px; 
+  background-size: cover; 
+  /* position: absolute;  */
+}
+
+.main-section  {
+  background: #ffffff;
+  width: 960px; 
+  height: 475px; 
+  border: 1px solid lightgray; 
+  /* display: block;  */
+  position: relative; 
+  margin: 0 auto;
+  top: 150px; 
+}
+
+#personalpicture {
+  width: 200px;
+  height: 200px;
+  padding-left: 20px; 
+  margin-top: 15px; 
+  margin-right: 10px; 
+  display: inline-block; 
+  float: left; 
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-left: 20px; 
+  color: teal; 
+}
+
+.greyborder {
+  height: 3px; 
+  background: lightgrey; 
+  margin: 20px 20px; 
+}
+
+p{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;  
+  margin: 30px 50px 0px 20px; 
+  line-height: 24px;
+  padding-right: 20px; 
+}
+
+.newfont {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px; 
+  line-height: 1.5; 
+}
+
+.primary-footer {
+  background:#666666;
+  height: 45px;
+  text-align: center; 
+  padding-top: 15px; 
+  border-top: 8px solid teal; 
+  color: #cccccc; 
+  max-width: 100%;
+  clear: both; 
+}
+
+  /*
+
+  ========================================
+  Links
+  ========================================
+
+*/
+
+a {
+    color: #648880;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #a9b2b9;
+  }
+  
+  .primary-header a, {
+    color: #dfe2e5; 
+  }
+
+
+
+/*
+
+  ========================================
+  Contact Form
+  ========================================
+
+*/
+
+input[type=text], select, textarea {
+  width: 920px; /* Full width */
+  padding: 10px; 
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  resize: vertical; 
+  margin: 10px 20px; 
+}
+  
+input[type=submit] {
+  background-color: teal;
+  margin-left: 20px; 
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+label{
+  margin-left: 20px; 
+  margin-top: 20px; 
+  padding-top: 10px;
+  color: #777777; 
+}
+ 
+.container {
+  font-family: 'Assistant', sans-serif;
+}
+
+/*
+
+  ========================================
+  Portfolio
+  ========================================
+
+*/
+  
+.major-section  {
+  background: #ffffff;
+  width: 960px; 
+  height: 800px; 
+  margin: 0 auto;  
+  border: 1px solid lightgray; 
+  display: block; 
+  position: relative; 
+  top: 150px; 
+}
+
+.portfolio-pictures {
+  width: 300px; 
+  height: 200px; 
+  margin-right: 40px;
+  margin-bottom: 30px;  
+  margin-top: 10px; 
+}
+
+.wrapper {
+  position: absolute; 
+  margin-left: 20px; 
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+}
+
+.picturetext{
+  font-family: 'Assistant', sans-serif;
+  width: 300px; 
+  height: 50px; 
+  background: teal; 
+  margin-left: 20px; 
+  margin-right: 20px; 
+  padding: 15px 20px 15px 100px; 
+  color: white;
+  text-align: center; 
+  float: left; 
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+}
+
+.books {
+  position: relative;
+  top: 150px; 
+}
+
+.chemistry {
+  position: relative;
+  top: 150px; 
+}
+.frisbee {
+  position: relative;
+  top: 340px; 
+}
+
+.veganmeal {
+  position: relative;
+  top: 340px; 
+}
+
+.legal {
+  position: relative;
+  top: 530px; 
+}
+
+/*
+
+  ========================================
+  Media Queries
+  ========================================
+
+*/
+
+@media screen and (max-width: 980px) {
+  body {
+    width: 980px;
+  }
+
+  .primary {
+    width: 980px;
+  }
+
+
+@media screen and (max-width: 768px) {
+
+  body {
+    width: 768px;
+  }
+  .primary {
+    width: 980px;
+  }
+
+@media screen and (max-width: 640px) {
+  body {
+    width: 640px;
+  }
+  .primary {
+    width: 980px;
+  }
