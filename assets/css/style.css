@@ -87,8 +87,8 @@
 
 .main-section  {
   background: #ffffff;
-  width: 960px; 
-  height: 475px; 
+  width: 80%; 
+  height: 80%; 
   border: 1px solid lightgray; 
   /* display: block;  */
   position: relative; 
@@ -160,7 +160,7 @@ a {
     color: #a9b2b9;
   }
   
-  .primary-header a, {
+  .primary-header, a {
     color: #dfe2e5; 
   }
 
@@ -285,8 +285,8 @@ label{
 */
 
 @media screen and (max-width: 980px) {
-  body {
-    width: 980px;
+  .main-section {
+    width: 80%; 
   }
   footer{
     width: 980px; 
@@ -302,8 +302,8 @@ label{
 
 @media screen and (max-width: 768px) {
 
-  body {
-    width: 768px;
+  .main-section {
+    width: 90%;
   }
   footer{
     width: 768px; 
@@ -314,10 +314,16 @@ label{
   .backslate {
     width: 768px;
   }
+}
 
 @media screen and (max-width: 640px) {
-  body {
+  .main-section {
+    width: 100%;  
+  }
+  
+  p {
     width: 640px;
+    color: blue;
   }
 
   header {
@@ -333,3 +339,4 @@ label{
   .backslate {
     width: 640px;
   }
+}
